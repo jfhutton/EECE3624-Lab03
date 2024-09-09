@@ -8,10 +8,6 @@
  * It uses memory locations for sensors and result writes.
  * We hope to learn more about branching in assembly.
  *************************************************************************/
-;; EQU and DEF
-.equ THRESHOLD	= 0x90
-.def Sensor1	= R20
-.def Sensor2	= R21
 
 /************************************************************************
  * NOTE!  To populate the sensor data to memory, follow these steps!
